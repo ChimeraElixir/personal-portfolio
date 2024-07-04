@@ -1,13 +1,13 @@
 import React from 'react'
-import Titile_Wrapper from './Title_Wrapper'
-import Timeline_List from './Timeline_List'
+import TitileWrapper from './TitleWrapper'
+import TimelineList from './TimelineList'
 
 const Timeline = (props) => {
   return (
     <section className='timeline'>
         
-        <Titile_Wrapper h={props.heading}/>
-        <Timeline_List {...props}/> 
+        <TitileWrapper h={props.heading}/>
+        <TimelineList {...props}/> 
 
 
     </section>

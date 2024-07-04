@@ -8,7 +8,7 @@ const Main_content = () => {
     <div className='main-content'>
       <Navbar/>
       <About/>
-      <Resume/>
+      {/* <Resume/> */}
       {/* <Portfolio/> */}
       {/* <Contact/> */}
     </div>

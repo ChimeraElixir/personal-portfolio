@@ -9,8 +9,10 @@ import MainContent from './Components/Main_Content/MainContent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Sidebar />
-    <MainContent/>
+    <main>
+      <Sidebar />
+      <MainContent/>
+    </main>
   </React.StrictMode>
 );
 

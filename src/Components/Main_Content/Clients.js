@@ -2,13 +2,13 @@ import React from "react";
 
 const clientItems = [
   {
-    src: "../../assets/images/logo-1-color.png",
+    src: "../assets/images/logo-1-color.png",
   },
   {
-    src: "../../assets/images/logo-1-color.png",
+    src: "../assets/images/logo-1-color.png",
   },
   {
-    src: "../../assets/images/logo-1-color.png",
+    src: "../assets/images/logo-1-color.png",
   },
 ];
 
@@ -21,9 +21,9 @@ const Clients = () => {
         {clientItems.map((clientItem) => {
           return (
             <li className='clients-item'>
-              <a href='#'>
+              <button>
                 <img src={clientItem.src} alt='client logo'></img>
-              </a>
+              </button>
             </li>
           );
         })}

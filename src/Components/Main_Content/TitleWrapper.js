@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Title_Wrapper = (props) => {
+const TitleWrapper = (props) => {
   return (
     <div className="title-wrapper">
       <div class="icon-box">
@@ -11,4 +11,4 @@ const Title_Wrapper = (props) => {
   )
 }
 
-export default Title_Wrapper
+export default TitleWrapper

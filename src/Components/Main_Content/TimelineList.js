@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const Timeline_List = (props) => {
+const TimelineList = (props) => {
   return (
     <ol className='timeline-list'>
 
@@ -26,4 +26,4 @@ const Timeline_List = (props) => {
   )
 }
 
-export default Timeline_List
+export default TimelineList
