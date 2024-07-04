@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './css/style.css';
 import reportWebVitals from './reportWebVitals';
+import Sidebar from "./Components/Sidebar/Sidebar"
+// import "./assets/js/script.js"
+import MainContent from './Components/Main_Content/MainContent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Sidebar />
+    <MainContent/>
   </React.StrictMode>
 );
 
