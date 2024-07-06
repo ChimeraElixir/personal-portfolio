@@ -7,16 +7,16 @@ import Clients from './Clients'
 
 const About = () => {
   return (
-    <article className='about' data-page='about'>
-        <header className='h2 article-title'>About me</header>
+      <article className='about ' data-page='about'>
+          <header className='h2 article-title'>About me</header>
 
-        <AboutText/>
-        <Service/>
-        <Testimonials/>
-        {/* <Testimonials_modal/> */}
-        <Clients/>
+          <AboutText/>
+          <Service/>
+          <Testimonials/>
+          {/* <TestimonialsModal/> */}
+          <Clients/>
 
-    </article>
+      </article>
   )
 }
 

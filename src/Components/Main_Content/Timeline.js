@@ -7,7 +7,15 @@ const Timeline = (props) => {
     <section className='timeline'>
         
         <TitileWrapper h={props.heading}/>
-        <TimelineList {...props}/> 
+        <ol className='timeline-list'>
+          {
+            props.map((prop)=>{
+              return <TimelineList {...prop}/>
+            })
+          }
+          
+
+        </ol>
 
 
     </section>

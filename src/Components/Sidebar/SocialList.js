@@ -1,11 +1,9 @@
 import React from "react";
+import IonIcon from "@reacticons/ionicons"
 
 const logos = [
   {
     name: "logo-facebook",
-  },
-  {
-    name: "logo-twitter",
   },
   {
     name: "logo-twitter",
@@ -17,12 +15,12 @@ const logos = [
 
 const Social_list = () => {
   return (
-    <ul className='social-lsit'>
+    <ul className='social-list'>
       {logos.map((logo) => {
         return (
           <li className='social-item'>
-            <a href='#' className='social-link'>
-              <ion-icon className={logo.name}></ion-icon>
+            <a href="google.com" className='social-link'>
+              <IonIcon name={logo.name}></IonIcon>
             </a>
           </li>
         );

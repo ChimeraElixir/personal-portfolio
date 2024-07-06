@@ -7,10 +7,10 @@ import SocialList from  "./SocialList"
 const SidebarMoreInfo = () => {
   return (
     <div class="sidebar-info_more">
-      <div className='seperator'></div>
-      <ContactList/>
-      <div className='seperator'></div>
-      <SocialList/>
+      <div className="separator"></div>
+      <ContactList />
+      <div className="separator"></div>
+      <SocialList />
     </div>
   )
 }

@@ -21,7 +21,7 @@ const navItems = [
 const Navbar = () => {
   return (
     <nav className='navbar'>
-      <ul className='navabr-list'>
+      <ul className='navbar-list'>
         {navItems.map((navItem) => {
           return (
             <li className='navbar-item'>

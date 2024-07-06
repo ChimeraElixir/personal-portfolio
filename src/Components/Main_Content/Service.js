@@ -1,14 +1,15 @@
 import React from "react";
+import avatar_1 from '../../assets/images/icon-app.svg'
 
 const serviceItems = [
   {
-    src: "./assets/images/icon-design.svg",
+    src: avatar_1,
     alt: "design icon",
     h4: "Web design",
     p: "The most modern and high-quality design made at a professional level.",
   },
   {
-    src: "./assets/images/icon-dev.svg",
+    src: avatar_1,
     alt: "Web development icon",
     h4: "Web development",
     p: "High-quality development of sites at the professional level",

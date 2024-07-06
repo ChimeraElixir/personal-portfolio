@@ -1,10 +1,11 @@
 import React from "react";
+import IonIcon from "@reacticons/ionicons"
 
 const ContactItem = (props) => {
   return (
     <li className='contact-item'>
       <div class='icon-box'>
-        <ion-icon name={props.name}></ion-icon>
+        <IonIcon name={props.name}></IonIcon>
       </div>
 
       <div class='contact-info'>

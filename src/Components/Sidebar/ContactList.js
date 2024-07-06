@@ -5,7 +5,7 @@ import ContactItem from './ContactItem'
 
 const contact_items =[
     {
-        name: 'mail outline',
+        name: 'mail-outline',
         p:"Email",
         href:"mailto:richard@example.com",
         value : "gaurav@example.com",

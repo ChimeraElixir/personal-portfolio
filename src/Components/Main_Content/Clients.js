@@ -1,16 +1,24 @@
 import React from "react";
+import client from "../../assets/images/logo-1-color.png"
+
 
 const clientItems = [
   {
-    src: "../assets/images/logo-1-color.png",
+    src: client,
   },
   {
-    src: "../assets/images/logo-1-color.png",
+    src: client,
   },
   {
-    src: "../assets/images/logo-1-color.png",
+    src: client,
   },
-];
+  {
+    src: client,
+  },
+  {
+    src: client,
+  },
+]
 
 const Clients = () => {
   return (
@@ -21,9 +29,9 @@ const Clients = () => {
         {clientItems.map((clientItem) => {
           return (
             <li className='clients-item'>
-              <button>
+              <a href="google.com">
                 <img src={clientItem.src} alt='client logo'></img>
-              </button>
+              </a>
             </li>
           );
         })}
