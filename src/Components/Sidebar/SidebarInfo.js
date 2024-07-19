@@ -34,7 +34,7 @@ const SidebarInfo = () => {
   return (
     <div className='sidebar-info' data-sidebar>
       <Figure img={my_avatar} />
-      <InfoContent name='Gaurav Verma' />
+      <InfoContent name="Gaurav Verma" />
       <InfoMoreBtn/>
     </div>
   );

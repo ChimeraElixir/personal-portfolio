@@ -4,6 +4,7 @@ import AboutText from './AboutText';
 import Service from './Service';
 import Testimonials from './Testimonials';
 import Clients from './Clients';
+import TestimonialModal from './TestimonialModal';
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
           <AboutText/>
           <Service/>
           <Testimonials/>
-          {/* <TestimonialsModal/> */}
+          <TestimonialModal/>
           <Clients/>
 
       </article>
