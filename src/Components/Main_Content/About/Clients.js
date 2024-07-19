@@ -1,5 +1,5 @@
 import React from "react";
-import client from "../../assets/images/logo-1-color.png"
+import client from "../../../assets/images/logo-1-color.png"
 
 
 const clientItems = [

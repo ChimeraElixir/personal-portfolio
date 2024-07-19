@@ -3,7 +3,7 @@ import React from 'react'
 
 
 const TimelineList = (props) => {
-    console.log(props)
+    // console.log(props)
   return (
     
         <li class="timeline-item">

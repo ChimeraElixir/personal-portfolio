@@ -1,5 +1,5 @@
 import React from "react";
-import avatar_1 from '../../assets/images/icon-app.svg'
+import avatar_1 from '../../../assets/images/icon-app.svg'
 
 const serviceItems = [
   {

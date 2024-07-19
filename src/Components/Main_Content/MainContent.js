@@ -1,18 +1,19 @@
 import React from 'react'
-import Navbar from './Navbar'
-import About from './About'
-import Resume from './Resume'
+import {Navbar} from './Navbar'
+import {About}  from './About'
+import {Resume} from './Resume'
+import { Contact } from './Contact'
 
-const Main_content = () => {
+const MainContent = () => {
   return (
     <div className='main-content'>
       <Navbar/>
       <About/>
       <Resume/>
       {/* <Portfolio/> */}
-      {/* <Contact/> */}
+      <Contact/>
     </div>
   )
 }
 
-export default Main_content
+export default MainContent;

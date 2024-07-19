@@ -1,8 +1,8 @@
 import React from 'react'
 
-const About_text = () => {
+const AboutText = () => {
   return (
-    <section class="about-text">
+    <section class="about-text ">
           <p>
             I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
             I enjoy
@@ -20,4 +20,4 @@ const About_text = () => {
   )
 }
 
-export default About_text
+export default AboutText

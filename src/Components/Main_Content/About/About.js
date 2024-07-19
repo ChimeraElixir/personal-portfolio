@@ -1,13 +1,13 @@
 import React from 'react'
 
-import AboutText from './AboutText'
-import Service from './Service'
-import Testimonials from './Testimonials'
-import Clients from './Clients'
+import AboutText from './AboutText';
+import Service from './Service';
+import Testimonials from './Testimonials';
+import Clients from './Clients';
 
 const About = () => {
   return (
-      <article className='about ' data-page='about'>
+      <article className='about active' data-page='about'>
           <header className='h2 article-title'>About me</header>
 
           <AboutText/>
@@ -20,4 +20,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

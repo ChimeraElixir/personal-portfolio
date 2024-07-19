@@ -6,7 +6,7 @@ const InfoContent = (props) => {
       <h1 className="name" title={props.name}>
         {props.name}
       </h1>
-      <p class="title">Web developer</p>
+      <p className="title">Web developer</p>
     </div>
   )
 }
