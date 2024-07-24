@@ -1,30 +1,15 @@
 import React from "react";
-import avatar_1 from '../../../assets/images/icon-app.svg'
 
-const serviceItems = [
-  {
-    src: avatar_1,
-    alt: "design icon",
-    h4: "Web design",
-    p: "The most modern and high-quality design made at a professional level.",
-  },
-  {
-    src: avatar_1,
-    alt: "Web development icon",
-    h4: "Web development",
-    p: "High-quality development of sites at the professional level",
-  }
-];
 
-const Service = () => {
+const Service = ({serviceItems}) => {
   return (
     <section className='service'>
       <h3 className='h3 service-title'>What i'am doing</h3>
 
       <ul className='service-list'>
-        {serviceItems.map((serviceItem) => {
+        {serviceItems.map((serviceItem,index) => {
           return (
-            <li className='service-item'>
+            <li key={index} className='service-item'>
               <div className='service-icon-box'>
                 <img
                   src={serviceItem.src}

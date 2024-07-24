@@ -1,19 +1,31 @@
 import React from "react";
-import TitleWrapper from "./TitleWrapper";
 import TimelineList from "./TimelineList";
-import '../useHandleClick'
+import "../useHandleClick";
+import { timelineItems } from "../../../data";
 
-const Timeline = ({heading,items}) => {
+import IonIcon from "@reacticons/ionicons";
+
+const Timeline = () => {
   return (
-    <section className='timeline'>
-      <TitleWrapper h={heading} />
-      <ol className='timeline-list'>
-      {
-        items.map((item, index) => (
-          <TimelineList key={index} {...item} />
-        ))}
-        </ol>
-    </section>
+    <>
+      {timelineItems.map((timelineItem, index) => {
+        return (
+          <section key={index} className='timeline'>
+            <div className='title-wrapper'>
+              <div className='icon-box'>
+                <IonIcon name={timelineItem.icon}></IonIcon>
+              </div>
+              <h3 className='h3'>{timelineItem.heading}</h3>
+            </div>
+            <ol className='timeline-list'>
+              {timelineItem.items.map((item, index) => (
+                <TimelineList key={index} {...item} />
+              ))}
+            </ol>
+          </section>
+        );
+      })}
+    </>
   );
 };
 

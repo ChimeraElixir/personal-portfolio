@@ -3,11 +3,9 @@ import IonIcon from "@reacticons/ionicons";
 
 import Figure from "./Figure";
 import InfoContent from "./InfoContent";
-import InfoMoreBtn from './InfoMoreBtn'
+import InfoMoreBtn from "./InfoMoreBtn";
 
-
-import my_avatar from "../../assets/images/my-avatar.png";
-
+import { myInfo } from "../../data";
 
 const SidebarInfo = () => {
   useEffect(() => {
@@ -18,12 +16,10 @@ const SidebarInfo = () => {
       sidebar.classList.toggle("active");
     };
 
-    // Ensure the elements exist before adding the event listener
-    
+    if (sidebarBtn) {
       sidebarBtn.addEventListener("click", handleSidebarToggle);
-    
+    }
 
-    // Cleanup the event listener on component unmount
     return () => {
       if (sidebarBtn) {
         sidebarBtn.removeEventListener("click", handleSidebarToggle);
@@ -32,10 +28,10 @@ const SidebarInfo = () => {
   }, []);
 
   return (
-    <div className='sidebar-info' data-sidebar>
-      <Figure img={my_avatar} />
-      <InfoContent name="Gaurav Verma" />
-      <InfoMoreBtn/>
+    <div className='sidebar-info'>
+      <Figure img={myInfo.my_avatar} />
+      <InfoContent {...myInfo} />
+      <InfoMoreBtn />
     </div>
   );
 };

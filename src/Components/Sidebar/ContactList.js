@@ -1,32 +1,28 @@
-import React from 'react'
+import React from "react";
+import IonIcon from "@reacticons/ionicons";
 
-import ContactItem from './ContactItem'
-
-
-const contact_items =[
-    {
-        name: 'mail-outline',
-        p:"Email",
-        href:"mailto:richard@example.com",
-        value : "gaurav@example.com",
-    },
-    {
-        name:"phone-portrait-outline",
-        p:"Phone",
-        href:"tel:+12133522795",
-        value : "+1 (213) 352-2795",
-    },
-
-]
+import { contactItems } from "../../data";
 
 const ContactList = () => {
   return (
     <ul className='contacts-list'>
-        {contact_items.map((contact_item)=>{
-            return (<ContactItem {...contact_item}/>)
-        })}
+      {contactItems.map((contactItem, index) => {
+        return (
+          <li key={index} className='contact-item'>
+            <div className='icon-box'>
+              <IonIcon name={contactItem.logo}></IonIcon>
+            </div>
+            <div className='contact-info'>
+              <p className='contact-title'>{contactItem.p}</p>
+              <a href={contactItem.href} className='contact-link'>
+                {contactItem.value}
+              </a>
+            </div>
+          </li>
+        );
+      })}
     </ul>
-  )
+  );
 };
 
-export default ContactList
+export default ContactList;

@@ -1,14 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import IonIcon from "@reacticons/ionicons"
 
 
 function ContactForm() {
+
+  const [form,setForm]=useState({
+    fullname:'',
+    email:'',
+    message:''
+  })
+
+  const handleChange = (e)=>{
+    setForm({...form,[e.target.name]:e.target.value});
+  }
+
+  const handleSubmit=(e)=>{
+    e.preventDefault();
+    console.log(form)
+  }
+
+
   return (
     <section className='contact-form'>
       <h3 className='h3 form-title'>Contact Form</h3>
 
-      <form action='#' className='form' data-form>
-        <div class='input-wrapper'>
+      <form action='#' className='form' data-form onSubmit={(e)=>handleSubmit(e)}>
+        <div className='input-wrapper'>
           <input
             type='text'
             name='fullname'
@@ -16,6 +33,7 @@ function ContactForm() {
             placeholder='Full name'
             required
             data-form-input
+            onChange={(e)=>handleChange(e)}
           />
 
           <input
@@ -25,6 +43,7 @@ function ContactForm() {
             placeholder='Email address'
             required
             data-form-input
+            onChange={(e)=>handleChange(e)}
           />
         </div>
 
@@ -34,6 +53,7 @@ function ContactForm() {
           placeholder='Your Message'
           required
           data-form-input
+          onChange={(e)=>handleChange(e)}
         ></textarea>
 
         <button className='form-btn' type='submit' disabled data-form-btn>

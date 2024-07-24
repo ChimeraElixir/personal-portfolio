@@ -1,6 +1,7 @@
 import React from "react";
 import IonIcon from "@reacticons/ionicons"
 
+import { socialLists } from "../../data";
 const logos = [
   {
     name: "logo-facebook",
@@ -13,14 +14,14 @@ const logos = [
   },
 ];
 
-const Social_list = () => {
+const SocialList = () => {
   return (
     <ul className='social-list'>
-      {logos.map((logo) => {
+      {socialLists.map((socialList,index) => {
         return (
-          <li className='social-item'>
-            <a href="google.com" className='social-link'>
-              <IonIcon name={logo.name}></IonIcon>
+          <li key={index} className='social-item'>
+            <a href={socialList.link} className='social-link'>
+              <IonIcon name={socialList.logo}></IonIcon>
             </a>
           </li>
         );
@@ -29,4 +30,4 @@ const Social_list = () => {
   );
 };
 
-export default Social_list;
+export default SocialList;

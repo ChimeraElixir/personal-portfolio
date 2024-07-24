@@ -3,7 +3,8 @@ import avatar_2 from "../../../assets/images/avatar-2.png";
 import quote from "../../../assets/images/icon-quote.svg";
 import IonIcon from '@reacticons/ionicons';
 
-const TestimonialModal = () => {
+const TestimonialModal = ({testimonialsItems}) => {
+console.log(testimonialsItems);
   return (
     <div className="modal-container" data-modal-container>
 
@@ -17,7 +18,7 @@ const TestimonialModal = () => {
 
             <div className="modal-img-wrapper">
               <figure className="modal-avatar-box">
-                <img src={avatar_2} alt="Daniel lewis" width={80} data-modal-img/>
+                <img src={avatar_2} alt={testimonialsItems?.name} width="80" data-modal-img/>
               </figure>
 
               <img src={quote} alt="quote icon"/>
@@ -25,17 +26,13 @@ const TestimonialModal = () => {
 
             <div className="modal-content">
 
-              <h4 className="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <h4 className="h3 modal-title" data-modal-title>{testimonialsItems?.name || "Gaurav"}</h4>
 
-              <time datetime="2021-06-14">14 June, 2021</time>
+              <time>{testimonialsItems?.date}</time>
 
               <div data-modal-text>
                 <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  {testimonialsItems?.p}
                 </p>
               </div>
 

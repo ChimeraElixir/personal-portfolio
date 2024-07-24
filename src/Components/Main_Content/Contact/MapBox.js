@@ -1,13 +1,13 @@
 import React from "react";
 
-const MapBox = (props) => {
+const MapBox = ({map}) => {
   return (
-    <section class='mapbox' data-mapbox>
+    <section className='mapbox' data-mapbox>
       <figure>
         <iframe
-          src={props.src}
-          width={400}
-          height={300}
+          src={map}
+          width='400'
+          height='300'
           loading='lazy'
         ></iframe>
       </figure>

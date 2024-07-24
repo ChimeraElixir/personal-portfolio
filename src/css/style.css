@@ -344,7 +344,14 @@ main {
   margin-bottom: 10px;
 }
 
-.info-content .title {
+.domain-list{
+  display: grid;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.domain-list .title {
   color: var(--white-1);
   background: var(--onyx);
   font-size: var(--fs-8);
@@ -352,7 +359,9 @@ main {
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+  margin-bottom: 3px;
 }
+
 
 .info_more-btn {
   position: absolute;
@@ -369,6 +378,7 @@ main {
 }
 
 .info_more-btn::before {
+  
   content: "";
   position: absolute;
   inset: 1px;

@@ -1,17 +1,6 @@
 import React from "react";
 import useHandleClick from "../useHandleClick";
-
-const navItems = [
-  {
-    value: "About",
-  },
-  {
-    value: "Resume",
-  },
-  {
-    value: "Contact",
-  },
-];
+import { navItems } from "../../../data";
 
 const Navbar = () => {
   useHandleClick();

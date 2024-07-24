@@ -1,14 +1,18 @@
-import React from 'react'
+import React from "react";
 
-const InfoContent = (props) => {
+const InfoContent = ({ name, domains }) => {
   return (
-    <div className="info-content">
-      <h1 className="name" title={props.name}>
-        {props.name}
+    <div className='info-content'>
+      <h1 className='name' title={name}>
+        {name}
       </h1>
-      <p className="title">Web developer</p>
+      <div className="domain-list">
+      {domains.map((domain,index) => {
+        return <p key={index} className='title'>{domain}</p>;
+      })}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default InfoContent
+export default InfoContent;

@@ -1,28 +1,7 @@
 import React, { useEffect } from "react";
-import avatar_2 from "../../../assets/images/avatar-2.png";
+ 
 
-const testimonialsItems = [
-  {
-    src: avatar_2,
-    alt: "Jessica Miller",
-    h4: "Jessica Miller",
-    p: "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
-  },
-  {
-    src: avatar_2,
-    alt: "Jessica Miller",
-    h4: "Jessica Miller",
-    p: "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
-  },
-  {
-    src: avatar_2,
-    alt: "Jessica Miller",
-    h4: "Jessica Miller",
-    p: "Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
-  },
-];
-
-const Testimonials = () => {
+const Testimonials = ({testimonialsItems}) => {
   useEffect(() => {
     const testimonialsItems = document.querySelectorAll("[data-testimonials-item]");
     const modalContainer = document.querySelector("[data-modal-container]");

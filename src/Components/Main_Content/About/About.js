@@ -6,16 +6,21 @@ import Testimonials from './Testimonials';
 import Clients from './Clients';
 import TestimonialModal from './TestimonialModal';
 
+import { aboutTextData } from '../../../data';
+import { serviceItems } from "../../../data";
+import { testimonialsItems } from '../../../data';
+import { clientItems } from '../../../data';
+
 const About = () => {
   return (
       <article className='about active' data-page='about'>
           <header className='h2 article-title'>About me</header>
 
-          <AboutText/>
-          <Service/>
-          <Testimonials/>
-          <TestimonialModal/>
-          <Clients/>
+          <AboutText aboutTextData={aboutTextData}/>
+          <Service serviceItems={serviceItems}/>
+          <Testimonials testimonialsItems={testimonialsItems}/>
+          <TestimonialModal testimonialsItems={testimonialsItems[0]}/>
+          <Clients clientItems={clientItems}/>
 
       </article>
   )
