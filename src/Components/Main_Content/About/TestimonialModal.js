@@ -4,7 +4,6 @@ import quote from "../../../assets/images/icon-quote.svg";
 import IonIcon from '@reacticons/ionicons';
 
 const TestimonialModal = ({testimonialsItems}) => {
-console.log(testimonialsItems);
   return (
     <div className="modal-container" data-modal-container>
 

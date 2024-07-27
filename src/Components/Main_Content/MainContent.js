@@ -12,7 +12,7 @@ const MainContent = () => {
       <Navbar/>
       <About/>
       <Resume/>
-      {/* <Portfolio/> */}
+      <Portfolio/>
       <Contact/>
     </div>
   )

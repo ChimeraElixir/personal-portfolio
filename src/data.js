@@ -1,7 +1,7 @@
-import avatar_1 from "./assets/images/icon-app.svg";
-import avatar_2 from "./assets/images/avatar-2.png";
-import client from "./assets/images/logo-1-color.png";
-import my_avatar from "./assets/images/my-avatar.png";
+import avatar_1 from "./assets/images/icon-app.svg"
+import avatar_2 from "./assets/images/avatar-2.png"
+import client from "./assets/images/logo-1-color.png"
+import my_avatar from "./assets/images/my-avatar.png"
 
 export const navItems = [
   {
@@ -10,13 +10,13 @@ export const navItems = [
   {
     value: "Resume",
   },
-  // {
-  //   value: "Portfolio",
-  // },
+  {
+    value: "Portfolio",
+  },
   {
     value: "Contact",
   },
-];
+]
 
 export const aboutTextData = [
   {
@@ -29,7 +29,7 @@ export const aboutTextData = [
           across your
           message and identity in the most creative way. I created web design for many famous brand companies.~`,
   },
-];
+]
 
 export const serviceItems = [
   {
@@ -44,7 +44,7 @@ export const serviceItems = [
     h4: "Web development",
     p: "High-quality development of sites at the professional level",
   },
-];
+]
 
 export const testimonialsItems = [
   {
@@ -68,7 +68,7 @@ export const testimonialsItems = [
     h4: "Jessica Miller",
     p: "Rihard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
   },
-];
+]
 
 export const clientItems = [
   {
@@ -86,11 +86,11 @@ export const clientItems = [
   {
     src: client,
   },
-];
+]
 
 export const timelineItems = [
   {
-    icon: 'book-outline',
+    icon: "book-outline",
     heading: "Education",
     items: [
       {
@@ -111,7 +111,7 @@ export const timelineItems = [
     ],
   },
   {
-    icon: 'book-outline',
+    icon: "book-outline",
     heading: "Education",
     items: [
       {
@@ -131,21 +131,26 @@ export const timelineItems = [
       },
     ],
   },
-];
+]
 
-
-//Sidebar 
+//Sidebar
 
 export const myInfo = {
   my_avatar,
-  name: 'Gaurav Verma',
-  domains: ["Web Developer", "Data Science", "Machine Learning", "Machine Learning", "Machine Learning", "Machine Learning"]
+  name: "Gaurav Verma",
+  domains: [
+    "Web Developer",
+    "Data Science",
+    "Machine Learning",
+    "Machine Learning",
+    "Machine Learning",
+    "Machine Learning",
+  ],
 }
-
 
 export const contactItems = [
   {
-    logo: 'mail-outline',
+    logo: "mail-outline",
     p: "Email",
     href: "mailto:richard@example.com",
     value: "gaurav@example.com",
@@ -156,7 +161,6 @@ export const contactItems = [
     href: "tel:+12133522795",
     value: "+1 (213) 352-2795",
   },
-
 ]
 
 export const socialLists = [
@@ -172,27 +176,33 @@ export const socialLists = [
     link: "www.facebook.com",
     logo: "logo-instagram",
   },
-
 ]
 
-export const map='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241412.99927145528!2d72.86870243966365!3d19.01627929067582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9f0b81f13ad%3A0x3c12f7681185f869!2sNavi%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1721825656791!5m2!1sen!2sin'
+export const map =
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241412.99927145528!2d72.86870243966365!3d19.01627929067582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9f0b81f13ad%3A0x3c12f7681185f869!2sNavi%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1721825656791!5m2!1sen!2sin"
 
+export const mySkills = [
+  {
+    skill: "Graphic design",
+    value: 65,
+  },
+  {
+    skill: "Graphic design",
+    value: 80,
+  },
+  {
+    skill: "Graphic design",
+    value: 80,
+  },
+  {
+    skill: "Graphic design",
+    value: 80,
+  },
+]
 
-export const mySkills=[
-  {
-    skill:"Graphic design",
-    value:65
-  },
-  {
-    skill:"Graphic design",
-    value:80
-  },
-  {
-    skill:"Graphic design",
-    value:80
-  },
-  {
-    skill:"Graphic design",
-    value:80
-  }
+export const filterLists = [
+  "ALL",
+  "Web Design",
+  "Application",
+  "Web Development",
 ]
