@@ -1,7 +1,13 @@
-import avatar_1 from "./assets/images/icon-app.svg"
+import avatar_1 from "./assets/images/avatar-1.png"
 import avatar_2 from "./assets/images/avatar-2.png"
-import client from "./assets/images/logo-1-color.png"
+import avatar_3 from "./assets/images/avatar-3.png"
+import avatar_4 from "./assets/images/avatar-4.png"
+
+import icon_dev from "./assets/images/icon-dev.svg"
 import my_avatar from "./assets/images/my-avatar.png"
+import chef_choice from "./assets/images/chef_choice.png"
+import portfolio_logo from "./assets/images/logo.ico"
+import chat_app from "./assets/images/chat_app.png"
 
 export const navItems = [
   {
@@ -20,72 +26,82 @@ export const navItems = [
 
 export const aboutTextData = [
   {
-    p: "I' Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.",
+    p: "Hi, I am Gaurav Verma, a Computer Science undergraduate with a strong background in Full Stack Development and Machine Learning",
   },
   {
-    p: `My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-          Moreover, I
-          add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-          across your
-          message and identity in the most creative way. I created web design for many famous brand companies.~`,
+    p: `My expertise lies in building scalable, secure web applications using React, Node.js, and MongoDB. I enjoy transforming complex challenges into efficient, user-friendly solutions. My goal is to create applications that not only meet but exceed expectations by focusing on performance, collaboration, and continuous learning. I have successfully led projects from concept to completion, always aiming to deliver impactful results.
+
+`,
   },
 ]
 
 export const serviceItems = [
   {
-    src: avatar_1,
-    alt: "design icon",
-    h4: "Web design",
-    p: "The most modern and high-quality design made at a professional level.",
-  },
-  {
-    src: avatar_1,
+    src: icon_dev,
     alt: "Web development icon",
     h4: "Web development",
     p: "High-quality development of sites at the professional level",
+  },
+  {
+    src: icon_dev,
+    alt: "Machine Learning icon",
+    h4: "Machine Learning",
+    p: "Innovative ML solutions using PyTorch, scikit-learn, and advanced deep learning techniques.",
+  },
+  {
+    src: icon_dev,
+    alt: "AI Applications icon",
+    h4: "AI Applications",
+    p: "Developing intelligent applications with focus on computer vision and natural language processing.",
+  },
+  {
+    src: icon_dev,
+    alt: "design icon",
+    h4: "Data Analysis",
+    p: "Unlock insights and trends from your data effectively.",
   },
 ]
 
 export const testimonialsItems = [
   {
-    src: avatar_2,
+    src: avatar_1,
     date: "14 June, 2021",
-    alt: "Jessica Miller",
-    h4: "Jessica Miller",
-    p: "ichard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
+    alt: "Ansh Goel",
+    h4: "Ansh Goel",
+    p: `His ability to tackle complex problems with innovative solutions is truly impressive. Gaurav’s expertise in full stack development, combined with his strong understanding of machine learning, made a significant impact on our projects`,
   },
   {
     src: avatar_2,
     date: "14 June, 2021",
-    alt: "Jessica Miller",
-    h4: "Jessica Miller",
-    p: "Rchard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
+    alt: "Kruti Malvi",
+    h4: "Kruti Malvi",
+    p: "The AI-powered app this engineer created is revolutionary. It demonstrates a rare blend of machine learning knowledge and practical application.",
   },
   {
-    src: avatar_2,
+    src: avatar_4,
     date: "14 June, 2021",
-    alt: "Jessica Miller",
-    h4: "Jessica Miller",
-    p: "Rihard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.",
+    alt: "Harshit Katiyar",
+    h4: "Harshit Katiyar",
+    p: "As a fellow coder, I'm amazed by Gaurav's dedication. 100+ day streak on LeetCode and 300+ DSA questions solved? That's commitment!",
   },
 ]
 
 export const clientItems = [
-  {
-    src: client,
-  },
-  {
-    src: client,
-  },
-  {
-    src: client,
-  },
-  {
-    src: client,
-  },
-  {
-    src: client,
-  },
+  // {
+  //   src: client,
+  // },
+  // {
+  //   src: client,
+  // },
+  // {
+  //   src: client,
+  // },
+  // {
+  //   src: client,
+  // },
+  // {
+  //   src: client,
+  // },
 ]
 
 export const timelineItems = [
@@ -94,87 +110,69 @@ export const timelineItems = [
     heading: "Education",
     items: [
       {
-        h4: "University school of the arts",
-        span: "2007-2008",
-        p: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.",
+        h4: "SRM Institute of Science and Technology",
+        span: "2021 - 2025",
+        p: "B.Tech in Computer Science and Artificial Intelligence - CGPA: 9.12 / 10",
       },
       {
-        h4: "University school of the arts",
-        span: "2007-2008",
-        p: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.",
+        h4: "Kendriya Vidyalaya, Panvel",
+        span: "2019-2020",
+        p: "Class XII - Percentage: 82.20%",
       },
       {
-        h4: "University school of the arts",
-        span: "2007-2008",
-        p: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.",
+        h4: "Kendriya Vidyalaya, Panvel",
+        span: "2017-2018",
+        p: "Class X - Percentage: 77%",
       },
     ],
   },
   {
-    icon: "book-outline",
-    heading: "Education",
+    icon: "briefcase-outline",
+    heading: "Experience",
     items: [
       {
-        h4: "University school of the arts",
-        span: "2007-2008",
-        p: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.",
-      },
-      {
-        h4: "University school of the arts",
-        span: "2007-2008",
-        p: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.",
-      },
-      {
-        h4: "University school of the arts",
-        span: "2007-2008",
-        p: "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.",
+        h4: "Full-Stack Intern",
+        span: "ONGC, Mumbai",
+        p: "Developed a full-stack project for the Hospitality and Welfare Department, improving resource management efficiency by 40%.",
       },
     ],
   },
 ]
-
 //Sidebar
 
 export const myInfo = {
   my_avatar,
   name: "Gaurav Verma",
-  domains: [
-    "Web Developer",
-    "Data Science",
-    "Machine Learning",
-    "Machine Learning",
-    "Machine Learning",
-    "Machine Learning",
-  ],
+  domains: ["Full Stack Developer", "Machine Learning"],
 }
 
 export const contactItems = [
   {
     logo: "mail-outline",
     p: "Email",
-    href: "mailto:richard@example.com",
-    value: "gaurav@example.com",
+    href: "mailto:gaurav94266@gmail.com",
+    value: "gaurav94266@gmail.com",
   },
   {
     logo: "phone-portrait-outline",
     p: "Phone",
-    href: "tel:+12133522795",
-    value: "+1 (213) 352-2795",
+    href: "tel:+917990521189",
+    value: "+91 7990521189",
   },
 ]
 
 export const socialLists = [
   {
-    link: "www.facebook.com",
-    logo: "logo-facebook",
+    link: "https://github.com/ChimeraElixir",
+    logo: "logo-github",
   },
   {
-    link: "www.facebook.com",
-    logo: "logo-twitter",
+    link: "https://www.linkedin.com/in/gaurav-verma-83b338221/",
+    logo: "logo-linkedin",
   },
   {
-    link: "www.facebook.com",
-    logo: "logo-instagram",
+    link: "https://leetcode.com/u/gaurav94266/",
+    logo: "code-outline",
   },
 ]
 
@@ -183,26 +181,53 @@ export const map =
 
 export const mySkills = [
   {
-    skill: "Graphic design",
-    value: 65,
+    skill: "React",
+    value: 85,
   },
   {
-    skill: "Graphic design",
+    skill: "Python",
+    value: 90,
+  },
+  {
+    skill: "C++",
     value: 80,
   },
   {
-    skill: "Graphic design",
-    value: 80,
+    skill: "Node.js",
+    value: 70,
   },
   {
-    skill: "Graphic design",
-    value: 80,
+    skill: "PyTorch",
+    value: 75,
   },
 ]
-
 export const filterLists = [
   "ALL",
   "Web Design",
   "Application",
   "Web Development",
+]
+
+export const portfolioItems = [
+  {
+    src: chef_choice,
+    alt: "Chef Choice",
+    title: "Chef Choice",
+    category: "Machine Learning",
+    href: "https://huggingface.co/spaces/ChimeraElixir/Recipe_Recommendation",
+  },
+  {
+    src: portfolio_logo,
+    alt: "Portfolio",
+    title: "Portfolio",
+    category: "Web Design",
+    href: "https://gaurav94266.github.io/Portfolio/",
+  },
+  {
+    src: chat_app,
+    alt: "Chat App",
+    title: "Chat App",
+    category: "Web Development",
+    href: "https://github.com/ChimeraElixir/Chat_App",
+  },
 ]

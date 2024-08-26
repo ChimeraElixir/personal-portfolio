@@ -1,19 +1,16 @@
-import React from "react";
-import Timeline from "./Timeline";
-import Skills from "./Skills";
-
+import React from "react"
+import Timeline from "./Timeline"
 
 const Resume = () => {
   return (
-    <article className='resume' data-page='resume'>
+    <article className="resume" data-page="resume">
       <header>
-        <h2 className='h2 article-title'>Resume</h2>
+        <h2 className="h2 article-title">Resume</h2>
       </header>
 
-      <Timeline/>
-      <Skills/>
+      <Timeline />
     </article>
-  );
-};
+  )
+}
 
-export default Resume;
+export default Resume
