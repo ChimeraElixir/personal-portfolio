@@ -229,6 +229,6 @@ export const portfolioItems = [
     alt: "Chat App",
     title: "Chat App",
     category: "Web Development",
-    href: "https://react-bxea.onrender.com/login",
+    href: "https://react-bxea.onrender.com/",
   },
 ]
