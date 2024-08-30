@@ -221,13 +221,13 @@ export const portfolioItems = [
     alt: "Portfolio",
     title: "Portfolio",
     category: "Web Design",
-    href: "https://gaurav94266.github.io/Portfolio/",
+    href: "https://chimera-portfolio.netlify.app/",
   },
   {
     src: chat_app,
     alt: "Chat App",
     title: "Chat App",
     category: "Web Development",
-    href: "https://github.com/ChimeraElixir/Chat_App",
+    href: "https://react-bxea.onrender.com/login",
   },
 ]
