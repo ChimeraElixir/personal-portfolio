@@ -1,5 +1,6 @@
 import avatar_1 from "./assets/images/avatar-1.png"
 import avatar_2 from "./assets/images/avatar-2.png"
+// eslint-disable-next-line no-unused-vars
 import avatar_3 from "./assets/images/avatar-3.png"
 import avatar_4 from "./assets/images/avatar-4.png"
 

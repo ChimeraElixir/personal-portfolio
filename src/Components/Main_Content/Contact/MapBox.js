@@ -1,18 +1,19 @@
-import React from "react";
+import React from "react"
 
-const MapBox = ({map}) => {
+const MapBox = ({ map }) => {
   return (
-    <section className='mapbox' data-mapbox>
+    <section className="mapbox" data-mapbox>
       <figure>
         <iframe
           src={map}
-          width='400'
-          height='300'
-          loading='lazy'
+          width="400"
+          height="300"
+          loading="lazy"
+          title="map"
         ></iframe>
       </figure>
     </section>
-  );
-};
+  )
+}
 
-export default MapBox;
+export default MapBox

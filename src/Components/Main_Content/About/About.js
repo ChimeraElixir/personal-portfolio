@@ -3,12 +3,14 @@ import React from "react"
 import AboutText from "./AboutText"
 import Service from "./Service"
 import Testimonials from "./Testimonials"
+// eslint-disable-next-line no-unused-vars
 import Clients from "./Clients"
 import TestimonialModal from "./TestimonialModal"
 
 import { aboutTextData } from "../../../data"
 import { serviceItems } from "../../../data"
 import { testimonialsItems } from "../../../data"
+// eslint-disable-next-line no-unused-vars
 import { clientItems } from "../../../data"
 import Skills from "./Skills"
 
